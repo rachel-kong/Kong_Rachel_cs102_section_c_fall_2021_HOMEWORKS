@@ -2,14 +2,14 @@
 int main() {
 
 	int min, h, m;
-	printf("How many minutes?: ");
-	scanf("%d", &min);
+	printf("How many minutes?: "); /* will ask user to input the minutes */
+	scanf("%d", &min); /* minutes as integer */
 	
-	h = min/60; 
+	h = min/60; /* calculate hours */
 	
-	m = (min - (60*h));
+	m = (min - (60*h)); /* calculate minutes */
 	
-	printf("%d hour, %d min\n",h,m);
+	printf("%d hour, %d min\n",h,m); /* print the hours and minutes */
 	
 
 	
